@@ -1,0 +1,279 @@
+<mxfile host="Electron" modified="2024-01-30T10:18:19.673Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="yjZ7wVRMYlKmcLGUlx5q" version="23.0.2" type="device">
+  <diagram name="Page-1" id="dZYl5OZoUQCcW0qMM8x-">
+    <mxGraphModel dx="1193" dy="2563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VLSeoSSXtadN14BaAR_w-1" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="34" y="-677" width="160" height="210" as="geometry">
+            <mxRectangle x="470" y="360" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-2" value="User ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-1" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-3" value="Player Name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-1" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-4" value="Mail" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-1" vertex="1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oHvGTAaz_lQAaP0gAyrE-1" value="Password" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VLSeoSSXtadN14BaAR_w-1">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-5" value="Book ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-1" vertex="1">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-6" value="Chapter ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-1" vertex="1">
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VLSeoSSXtadN14BaAR_w-7" target="VLSeoSSXtadN14BaAR_w-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-37" value="Un livre a plusieurs chapitres" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-36" vertex="1" connectable="0">
+          <mxGeometry x="-0.4978" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-38" value="Un chapitre appartient&amp;nbsp; à un seul livre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-36" vertex="1" connectable="0">
+          <mxGeometry x="0.4" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-7" value="Book" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="474" y="-757" width="160" height="90" as="geometry">
+            <mxRectangle x="470" y="360" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-8" value="Book ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-7" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-9" value="Title" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-7" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-13" value="Chapter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="474" y="-437" width="160" height="180" as="geometry">
+            <mxRectangle x="470" y="360" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-14" value="Chapter ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-13" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2zQ_ojchZs7ajswsT9QH-8" value="Chapter number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-13" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-15" value="Text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-13" vertex="1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-16" value="Number of choices" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-13" vertex="1">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2zQ_ojchZs7ajswsT9QH-6" value="Book ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-13" vertex="1">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VLSeoSSXtadN14BaAR_w-18" target="VLSeoSSXtadN14BaAR_w-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-50" value="Un livre à plusieurs feuilles&lt;br&gt;de personnage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-49" vertex="1" connectable="0">
+          <mxGeometry x="0.4281" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-51" value="Une feuille de personnage&lt;br&gt;correspond à un seul livre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-49" vertex="1" connectable="0">
+          <mxGeometry x="-0.6053" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.023;entryY=0.244;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VLSeoSSXtadN14BaAR_w-18" target="rpkG-vkVlw1SKAVs19an-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="-1267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-9" value="Un combat correspond à une&lt;br&gt;seule feuille de personnage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rpkG-vkVlw1SKAVs19an-8" vertex="1" connectable="0">
+          <mxGeometry x="0.7573" y="1" relative="1" as="geometry">
+            <mxPoint x="84" y="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-10" value="Une feuille de personnage&lt;br&gt;comporte plusieurs combats" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rpkG-vkVlw1SKAVs19an-8" vertex="1" connectable="0">
+          <mxGeometry x="0.0625" y="1" relative="1" as="geometry">
+            <mxPoint y="88" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-18" value="Character Sheet&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="204" y="-1117" width="160" height="330" as="geometry">
+            <mxRectangle x="470" y="360" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-19" value="Sheet ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-18" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-12" value="Initial Stamina" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-18" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-20" value="Stamina&amp;nbsp;points" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-18" vertex="1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-13" value="Initial Dexterity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-18" vertex="1">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-21" value="Dexterity Points" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-18" vertex="1">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-14" value="Initial PSI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-18" vertex="1">
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2zQ_ojchZs7ajswsT9QH-1" value="PSI Points" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-18" vertex="1">
+          <mxGeometry y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2zQ_ojchZs7ajswsT9QH-3" value="Gold Coin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-18" vertex="1">
+          <mxGeometry y="240" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2zQ_ojchZs7ajswsT9QH-2" value="Book ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-18" vertex="1">
+          <mxGeometry y="270" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-11" value="User ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-18" vertex="1">
+          <mxGeometry y="300" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-28" value="Choice" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="994" y="-437" width="160" height="150" as="geometry">
+            <mxRectangle x="470" y="360" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-29" value="Choice ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-28" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-31" value="Choice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-28" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-30" value="Coice Text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-28" vertex="1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2zQ_ojchZs7ajswsT9QH-7" value="Chapter ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VLSeoSSXtadN14BaAR_w-28" vertex="1">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.196;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VLSeoSSXtadN14BaAR_w-4" target="VLSeoSSXtadN14BaAR_w-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-34" value="Un utilisateur lit un livre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-33" vertex="1" connectable="0">
+          <mxGeometry x="0.2466" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-35" value="Un livre&amp;nbsp; a plusieurs utilisateur" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-33" vertex="1" connectable="0">
+          <mxGeometry x="-0.3147" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="194.96" y="-527" as="sourcePoint" />
+            <mxPoint x="473.99999999999994" y="-408.70000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="-527" />
+              <mxPoint x="315" y="-409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-40" value="Un utilisateur en est à un chapitre donné" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.2946" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-41" value="Un chapitre peut être lu par&lt;br&gt;plusieurs utilisateurs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-39" vertex="1" connectable="0">
+          <mxGeometry x="0.4346" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VLSeoSSXtadN14BaAR_w-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="994" y="-362" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="-362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-43" value="Un chapitre propose un&lt;br&gt;ou plusieurs choix" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-42" vertex="1" connectable="0">
+          <mxGeometry x="-0.4635" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-44" value="Chaque choix correspond&lt;br&gt;à un seul chapitre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-42" vertex="1" connectable="0">
+          <mxGeometry x="0.4661" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76.4" y="-677" as="sourcePoint" />
+            <mxPoint x="194.00000000000014" y="-1078.19" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="76" y="-1078" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-47" value="Un utilisateur à plusieurs&lt;br&gt;feuilles de personnage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-46" vertex="1" connectable="0">
+          <mxGeometry x="-0.4533" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLSeoSSXtadN14BaAR_w-48" value="Une feuille de personnage&lt;br&gt;correspond à un seul utilisateur" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VLSeoSSXtadN14BaAR_w-46" vertex="1" connectable="0">
+          <mxGeometry x="0.2699" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLDiS-wHsYmHe2XX4im3-1" value="Object Inventory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="634" y="-1237" width="160" height="150" as="geometry">
+            <mxRectangle x="470" y="360" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLDiS-wHsYmHe2XX4im3-2" value="Object Inventory ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="LLDiS-wHsYmHe2XX4im3-1" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LLDiS-wHsYmHe2XX4im3-3" value="Object name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="LLDiS-wHsYmHe2XX4im3-1" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LLDiS-wHsYmHe2XX4im3-4" value="Description" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="LLDiS-wHsYmHe2XX4im3-1" vertex="1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2zQ_ojchZs7ajswsT9QH-5" value="Sheet ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="LLDiS-wHsYmHe2XX4im3-1" vertex="1">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.027;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VLSeoSSXtadN14BaAR_w-18" target="LLDiS-wHsYmHe2XX4im3-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="-1017" />
+              <mxPoint x="474" y="-1224" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-2" value="Un inventaire correspond à&lt;br&gt;une feuille de personnage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rpkG-vkVlw1SKAVs19an-1" vertex="1" connectable="0">
+          <mxGeometry x="0.4034" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-3" value="Une feuille de personnage a&lt;br&gt;plusieurs objets d&#39;inventaire&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rpkG-vkVlw1SKAVs19an-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.5626" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-4" value="Combat" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="14" y="-1397" width="160" height="150" as="geometry">
+            <mxRectangle x="470" y="360" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-5" value="Combat ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="rpkG-vkVlw1SKAVs19an-4" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-6" value="Enemy name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="rpkG-vkVlw1SKAVs19an-4" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rpkG-vkVlw1SKAVs19an-7" value="Stamina Points" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="rpkG-vkVlw1SKAVs19an-4" vertex="1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2zQ_ojchZs7ajswsT9QH-4" value="Sheet ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="rpkG-vkVlw1SKAVs19an-4" vertex="1">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

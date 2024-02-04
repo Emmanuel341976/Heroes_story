@@ -1,0 +1,66 @@
+{
+	"data" :[
+		{
+			"id" : 0,
+			"collection" : "Dragon d'or",
+			"title" : "Le Tombeau du Vampire",
+			"volume" : 1
+		},
+
+		{
+			"id" : 1,
+			"collection" : "Dragon d'or",
+			"title" : "Le Dieu Perdu",
+			"volume" : 2
+		},
+
+		{
+			"id" : 2,
+			"collection" : "Dragon d'or",
+			"title" : "Le Seigneur de l'Ombre",
+			"volume" : 3
+		},
+
+		{
+			"id" : 3,
+			"collection" : "Dragon d'or",
+			"title" : "La Malédiction du Pharaon",
+			"volume" : 4
+		},
+
+		{
+			"id" : 4,
+			"collection" : "Dragon d'or",
+			"title" : "Le Château des Ames Damnées",
+			"volume" : 5
+		},
+
+		{
+			"id" : 5,
+			"collection" : "Dragon d'or",
+			"title" : "L'oeil du Dragon",
+			"volume" : 6
+		},
+
+		{
+			"id" : 6,
+			"collection" : "Chroniques Crétoises",
+			"title" : "La Vengeance d'Althéos",
+			"volume" : 1
+		},
+
+		{
+			"id" : 7,
+			"collection" : "Chroniques Crétoises",
+			"title" : "Le Labyrinthe du Roi Minos",
+			"volume" : 2
+		},
+		
+		{
+			"id" : 8,
+			"collection" : "Chroniques Crétoises",
+			"title" : "L'odysée d'Althéos",
+			"volume" : 3
+		}
+	]
+}
